@@ -52,7 +52,7 @@ ul,ol{
     margin: 0 auto;
 }
 
-.active{}
+/* .active{} */
 
 /* ---------------------------------- LOGO ----------------------------------- */
 /* "web" and "studio" style logo (in header and footer) */
@@ -231,6 +231,10 @@ ul,ol{
 /* =========================== HERO section (герой) ===========================*/
 .hero { 
     background-color: var(--background-color-additional);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4) ) , url(../images/hero-bg.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     padding-top: 200px;
     padding-bottom: 200px;
 }
