@@ -355,11 +355,11 @@ ul,ol{
 /* .our-team-list{} */
 
 .our-team-group{
-    display: flexbox;
+    flex-basis: calc((100% - 90px) / 4);
     margin: 0 auto;
     background-color: var(--additional-text-color);
     width: 270px;
-    height: 370px;
+    height: 428px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
@@ -388,7 +388,24 @@ ul,ol{
     line-height: 1.18;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
+
+.soc-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.soc-list {
+    background-color: orange;
+    height: 40px;
+    list-style: none;
+    flex-basis: calc((100% - 90px) / 4);
+    outline: 2px solid var(--background-color-additional);
+}
+
+/* .soc-link{} */
 
 .section {
     padding-top: 94px;
