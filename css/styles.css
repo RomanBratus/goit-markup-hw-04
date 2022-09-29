@@ -8,6 +8,7 @@
     --background-color: #ffffff;
     --background-color-additional: #2f303a;
     --background-color-special: #F5F4FA;
+    --social-main-color: #AFB1B8;
 }
 
 /* ------------- body+logo+head+footer (тіло+логотип+шапка+підвал) ----------- */
@@ -408,7 +409,29 @@ ul,ol{
     height: 44px;
     border-radius: 50%;
     background-color: green;
+    color: var(--social-main-color);
 }
+
+.social-link-icon {
+    fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus{
+    background-color: var(--text-hover-color);
+    color: var(--additional-text-color);
+}
+
+/* нижче наведено ту саму функцію хіба довшим шляхом, тобто додатковими рядками */
+/* .social-link:hover,
+.social-link:focus{
+    background-color: var(--text-hover-color);
+}
+
+.social-link:hover social-link-icon,
+.social-link:focus social-link-icon{
+fill: var(--additional-text-color);
+} */
 
 .section {
     padding-top: 94px;
