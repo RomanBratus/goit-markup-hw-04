@@ -396,13 +396,19 @@ ul,ol{
 }
 
 .soc-list {
-    background-color: orange;
     list-style: none;
-    width: 40px;
-    height: 40px;
+    display: contents;
 }
 
-/* .soc-link{} */
+.social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: green;
+}
 
 .section {
     padding-top: 94px;
