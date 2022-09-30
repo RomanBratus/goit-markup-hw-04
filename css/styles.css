@@ -146,12 +146,16 @@ ul,ol{
 /* ----------------------------- header contacts ----------------------------- */
 .topbar-contacts-list{
     gap: 50px;
-    margin-left: 345px;
+    margin-left: auto;
 }
 
 /* header contacts list options (налаштування списку контактів) */
 .topbar-contacts-group {
-    margin-top: 32px;
+/*     margin-top: 32px; */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    fill: var(--paragraph-tex-color);
 }
 
 /* header contacts color and hover (налаштування контактів в шапці) */
@@ -160,10 +164,17 @@ ul,ol{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.topbar-contacts-link:focus,
-.topbar-contacts-link:hover{
+.topbar-contacts-link:focus ,
+.topbar-contacts-link:hover {
     color: var(--text-hover-color);
 }
+
+.topbar-contacts-link:focus + .topbar-contacts-icon,
+.topbar-contacts-link:hover + .topbar-contacts-icon{
+    fill: var(--text-hover-color);
+}
+
+/* .topbar-contacts-icon{} */
 
 
 
@@ -408,18 +419,13 @@ ul,ol{
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: green;
-    color: var(--social-main-color);
-}
-
-.social-link-icon {
-    fill: currentColor;
+    fill: var(--social-main-color);
 }
 
 .social-link:hover,
 .social-link:focus{
     background-color: var(--text-hover-color);
-    color: var(--additional-text-color);
+    fill: var(--additional-text-color);
 }
 
 /* нижче наведено ту саму функцію хіба довшим шляхом, тобто додатковими рядками */
