@@ -151,11 +151,8 @@ ul,ol{
 
 /* header contacts list options (налаштування списку контактів) */
 .topbar-contacts-group {
-/*     margin-top: 32px; */
     display: flex;
-    align-items: center;
-    gap: 10px;
-    fill: var(--paragraph-tex-color);
+/*     align-content: center; */
 }
 
 /* header contacts color and hover (налаштування контактів в шапці) */
@@ -163,18 +160,18 @@ ul,ol{
     color: var(--paragraph-tex-color);
     padding-top: 32px;
     padding-bottom: 32px;
+/*     gap: 10px; */
+    fill: var(--paragraph-tex-color);
 }
 .topbar-contacts-link:focus ,
 .topbar-contacts-link:hover {
     color: var(--text-hover-color);
-}
-
-.topbar-contacts-link:focus + .topbar-contacts-icon,
-.topbar-contacts-link:hover + .topbar-contacts-icon{
     fill: var(--text-hover-color);
 }
 
-/* .topbar-contacts-icon{} */
+.topbar-contacts-icon{
+margin: 0;
+}
 
 
 
