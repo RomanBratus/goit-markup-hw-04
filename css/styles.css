@@ -152,7 +152,6 @@ ul,ol{
 /* header contacts list options (налаштування списку контактів) */
 .topbar-contacts-group {
     display: flex;
-/*     align-content: center; */
 }
 
 /* header contacts color and hover (налаштування контактів в шапці) */
@@ -160,7 +159,6 @@ ul,ol{
     color: var(--paragraph-tex-color);
     padding-top: 32px;
     padding-bottom: 32px;
-/*     gap: 10px; */
     fill: var(--paragraph-tex-color);
 }
 .topbar-contacts-link:focus ,
@@ -170,7 +168,7 @@ ul,ol{
 }
 
 .topbar-contacts-icon{
-margin: 0;
+margin-right: 10px;
 }
 
 
