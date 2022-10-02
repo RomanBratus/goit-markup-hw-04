@@ -473,8 +473,27 @@ fill: var(--additional-text-color);
 }
 
 /* =================== partners (наша команда) section =================== */
-.partners-group{}
+.partners-group{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
 
+.partners-list{
+    box-sizing: border-box;
+    display: flex;
+    border: 1px solid var(--social-main-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-icon{
+    fill: var(--social-main-color);
+}
 
 /* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
