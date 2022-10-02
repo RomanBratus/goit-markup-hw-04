@@ -355,7 +355,9 @@ fill: var(--primery-text-color);
 /* ======================= img-section (чим займаємось) ======================= */
 
 /* title in section 3 and 4  */
-.img-section-title,.our-team-main-title{
+.img-section-title, 
+.our-team-main-title, 
+.partners-main-title{
     color: var(--primery-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -469,6 +471,10 @@ fill: var(--additional-text-color);
     padding-bottom: 94px;
 }
 
+/* =================== partners (наша команда) section =================== */
+.partners-group{}
+
+
 /* ++++++++++++++++++++++++++ PAGE 2 portfolio.html +++++++++++++++++++++++++  */
 /* ---------- main potfolio.html (основний контент portfolio.html) ----------  */
 
@@ -478,7 +484,7 @@ fill: var(--additional-text-color);
     display: flex;
     justify-content: center;
     gap: 8px;
-    margin-bottom: 50px;
+    margin-bottom: 50px;     
 }
 
 /* .porfolio-btn-grop {} */
