@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-client-logo-6 {
+  width: 2.0888671875em;
+}
+
 .icon-tel {
   width: 0.625em;
 }
