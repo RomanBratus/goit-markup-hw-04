@@ -227,12 +227,27 @@ margin-right: 10px;
     color: var(--text-hover-color);
 }
 
-/* .basement-container {} */
+.basement-container {
+    display: flex;
+    gap: 70px;
+}
 
 .basement-adress-section {
     margin-top: 20px;
 }
 
+.basement-soc {
+    color: var(--additional-text-color);
+    margin-bottom: 20px;
+    margin-top: 12px;
+}
+
+.basement-icon-group {
+    display: block;
+    width: 206px;
+    height: 80px;
+
+}
 
 /* ++++++++++++++ main index.html (основний контент index.html) ++++++++++++++ */
 /* =========================== HERO section (герой) ===========================*/
