@@ -480,9 +480,7 @@ fill: var(--additional-text-color);
     gap: 30px;
 }
 
-.partners-list{
-/*     display: flex; */
-}
+/* .partners-list{} */
 
 .partners-link{
     display: flex;
