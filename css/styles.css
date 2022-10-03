@@ -109,6 +109,11 @@ ul,ol{
     line-height: 1.14;
 }
 
+.topbar-contacts-link{
+    display: flex;
+    align-items: center;
+}
+
 .topbar-navigation-list,
 .topbar-contacts-list{
     list-style: none;
@@ -229,7 +234,7 @@ margin-right: 10px;
 
 .basement-container {
     display: flex;
-    gap: 70px;
+    align-items: baseline;
 }
 
 .basement-adress-section {
@@ -239,15 +244,31 @@ margin-right: 10px;
 .basement-soc {
     color: var(--additional-text-color);
     margin-bottom: 20px;
-    margin-top: 12px;
 }
 
 .basement-icon-group {
     display: block;
     width: 206px;
     height: 80px;
-
+    margin-left: 70px;
 }
+
+.basement-social-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);;
+    fill: var(--additional-text-color);
+}
+
+.basement-social-link:hover,
+.basement-social-link:focus{
+    background-color: var(--text-hover-color);
+}
+
 
 /* ++++++++++++++ main index.html (основний контент index.html) ++++++++++++++ */
 /* =========================== HERO section (герой) ===========================*/
@@ -556,7 +577,10 @@ fill: var(--additional-text-color);
     flex-basis: calc((100% - 60px)/3);
 }
 
-/* .portfolio-links {} */
+.portfolio-links:hover, 
+.portfolio-links:focus{
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 
 .porfolio-link-img {
     display: block;
